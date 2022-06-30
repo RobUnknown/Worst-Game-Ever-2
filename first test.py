@@ -4,13 +4,17 @@ print ('???: "What is your name?" ')
 user_name = input('> ')
 if len(user_name) >= 30:
     print("???: 'You seem to be very confused.'")
+    print("???: 'I'll call you Rob for now.")
+    user_name = 'Rob'
 else:
-    for i in ['remember',' forgot ','forgotten','memory','not sure',' know ','no clue',' idea ',' forget ']:
+    for i in ['remember',' forgot','forgotten','memory','not sure',' know','no clue',' idea',' forget',' have one']:
         if i in user_name:
             print("???: 'You seem to be very confused.'")
-        else:
-            print('???: "Ah,',user_name,'it is then."')
-            print('???: "You seem to be confused,',user_name,'."')
+            print("???: 'I'll call you Rob for now.")
+            user_name = 'Rob'
+if user_name != "Rob":
+    print('???: "Ah,',user_name,'it is then."')
+    print('???: "You seem to be confused,',user_name,'."')
 print('???: "I am Henrick, and this is the land of Pythonia."')
 
 #defining stuff
@@ -76,7 +80,7 @@ print('Henrick: "Make sure to always keep a supply of food with you, eh?"')
 #figure out where the user is from
 print("Henrick: 'Where have you traveled from, by the way?'")
 user_input = input('> ')
-for i in ['remember',' forgot ','forgotten','memory','not sure',' know ','no clue',' idea ',' forget ']:
+for i in ['remember',' forgot','forgotten','memory','not sure',' know','no clue',' idea',' forget']:
     if i in user_input:
         homeland = 'memory loss'
         break
@@ -91,3 +95,9 @@ else:
     print("Henrick: '",user_name,"of",homeland,", excellent.'")
     print("Henrick: 'Let me enlighten you on the surrounding areas,",user_name)
 
+#showing surroundings
+print("Henrick: 'Down there to the West is Tumble Creek, a bussling village with a small river running through it.'")
+print("Henrick: 'To the South the hills get a bit calmer, but I don't recommend going there, it's prime snake territory'")
+print("Henrick: 'The hills keep going for a while to the East, before they eventually form into a valley.'")
+print("Henrick: 'And to the North are a lot of fertile plains and forests that stretch all the way back to Tumble Creak.'")
+print("Henrick: 'Come, I'll bring you down to Tumble Creek.'")
