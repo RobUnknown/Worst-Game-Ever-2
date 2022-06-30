@@ -100,4 +100,4 @@ print("Henrick: 'Down there to the West is Tumble Creek, a bussling village with
 print("Henrick: 'To the South the hills get a bit calmer, but I don't recommend going there, it's prime snake territory'")
 print("Henrick: 'The hills keep going for a while to the East, before they eventually form into a valley.'")
 print("Henrick: 'And to the North are a lot of fertile plains and forests that stretch all the way back to Tumble Creak.'")
-print("Henrick: 'Come, I'll bring you down to Tumble Creek.'")
+print("Henrick: 'Come, I'll bring you down to the village.'")
