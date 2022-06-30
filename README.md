@@ -3,3 +3,5 @@ A successor to Worst Game Ever 1 (which was played in a command prompt and coded
 Just like WGE 1 it is also played in a command prompt.
 
 Could one day probably be turned into a Discord bot.
+
+Feel free to make suggestions or pull requests or whatever.
